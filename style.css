@@ -1,0 +1,48 @@
+
+ul {
+    list-style: none;
+
+}
+
+li {
+    border-bottom: 1px solid lightgray;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.card-title {
+    font-size: 20px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.fiveDayColor {
+    padding: 20px;
+    background-color: #1E90FF;
+    color: white;
+    float: left;
+    margin: 10px;
+    border: 1px solid lightgray;
+}
+
+/* UV coloring scheme for UV display */
+.uv-favorable{
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+}
+
+.uv-moderate{
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+}
+
+.uv-severe{
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+}
